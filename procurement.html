@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="icon" href="images/web-logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <title>Procurement</title>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<style>
+  .subs {
+    display: inline-block;
+    width: auto;
+    border-bottom: 2px solid var(--bg-primary);
+  }
+</style>
+
+<body>
+  <!-- 
+  <button id="scollbutton">Contact</button>
+
+  <div id="contactbutton">
+    <ul>
+      <li><a href=""> Whatsap</a></li>
+      <li>
+        <a href="">instagram</a>
+      </li>
+      <li>
+        <a href="">email</a>
+      </li>
+    </ul>
+  </div> -->
+
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo"><img src="images/web-logo.jpg" alt="web-logo"></a>
+
+    <div class="navbar-extra">
+      <button class="navbar-menu" onclick="menuClick()"><i data-feather="menu" class="icon-menu"></i></button>
+    </div>
+
+    <div class="nav-navbar">
+      <a href="index.html"><ion-icon name="home" class="navicon"></ion-icon>Home</a>
+      <div class="dropdown">
+        <button onclick="dropdownClick()"><ion-icon name="call" class="navicon"></ion-icon>Contact<ion-icon
+            name="chevron-down" class="navarrow-contact"></ion-icon></button>
+        <ul class="dropdown-menu">
+          <li><a href="">Whatsapp</a></li>
+          <li><a href="https://www.instagram.com/larosmultiindoteknik?igsh=dnUxbm5weTUwem9n">Instagram</a></li>
+        </ul>
+      </div>
+      <div class="dropdown2">
+        <button onclick="dropdownClick2()"><ion-icon name="folder-open" class="navicon"></ion-icon>Project<ion-icon
+            name="chevron-down" class="navarrow"></ion-icon></button>
+        <ul class="dropdown-menu2">
+          <li><a href="project/experience-list.html">Experience List</a></li>
+          <li><a href="project/gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <a href="about.html"><ion-icon name="information-circle" class="navicon"></ion-icon>About</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="subs">
+      <h1>PROCUREMENT</h1>
+    </div>
+
+    <div class="suba">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LMI banyak memiliki rekanan bisnis dan principle yang siap mensupport dalam pengadaan barang. Kami selalu berkomitmen untuk memberikan harga terbaik kepada customer.</p>
+    </div>
+
+    <div class="suber">
+      <h3>Barang yang kami supply adalah sebagai berikut:</h3>
+    </div>
+
+    <div class="section">
+      <div class="subsection">
+        <h3>1. Electrical</h3>
+        <div class="item">1. MV Switchgear</div>
+        <div class="item">2. LV Switchgear</div>
+        <div class="item">3. Motor Control Center (MCC)</div>
+        <div class="item">4. UPS Battery Charger</div>
+        <div class="item">5. Trafo Distribution</div>
+        <div class="item">6. Genset</div>
+        <div class="item">7. VFD</div>
+        <div class="item">8. Electric Motor</div>
+        <div class="item">9. Dan Lain – Lain</div>
+      </div>
+      <div class="subsection">
+        <h3>2. Instrumentation</h3>
+        <div class="item">1. Safety Instrument Device</div>
+        <div class="item">2. Measurement Instrument Device</div>
+        <div class="item">3. Dan lain-lain</div>
+      </div>
+      <div class="subsection">
+        <h3>3. Automation</h3>
+        <div class="item">1. PLC</div>
+        <div class="item">2. Input/Output Module</div>
+        <div class="item">3. Interfacing & Communication</div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="address-text">
+        <p>Jl. Citra Harmoni Jl. Raya Beringin Kulon No.5, Dusun Kemendung, Trosobo, Kec. Taman, Kabupaten Sidoarjo,
+          Jawa Timur 61257</p>
+      </div>
+      <div class="media-container">
+        <a href="">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      <div class="email-text">
+        <p>larosmultiindoteknik@gmail.com</p>
+        <p>support@laros-epcc.com</p>
+      </div>
+
+      <div class="copyright-text">
+        <p>&copy; 2024 LAROS MULTI INDOTEKNIK. <br> All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- javascript -->
+  <script src="js/main.js"></script>
+
+  <script>
+    feather.replace();
+  </script>
+
+</body>
+
+</html>

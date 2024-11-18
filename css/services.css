@@ -1,0 +1,43 @@
+  body {
+    padding-top: 10rem;
+    color: var(--color-text);
+  }
+
+  .container {
+    font-size: 1.3rem;
+    margin: 0rem 6rem;
+    margin-bottom: 10rem;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .subsection {
+    margin-left: 20px;
+  } 
+
+  .item {
+    margin-left: 40px;
+    font-size: 1.6rem;
+  }
+
+  .subrek {
+    margin-bottom: 0.8rem;
+  }
+
+  .suba {
+    margin: 0.8rem 0rem;
+    font-size: 1.6rem;
+  }
+
+  .suber {
+    margin-bottom: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+  }
